@@ -1,0 +1,96 @@
+body {
+    font-family: 'Questrial', sans-serif;
+}
+
+#header {
+    font-family: 'Questrial', sans-serif;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(realestateimgs/jumbotron.jpeg);
+    align-items: center;
+    background-size: cover;
+    background-position: top;
+    min-height: 30em;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 500em inherit;
+    text-align: center;
+    max-height: 90em;
+}
+
+#logo {
+    max-height: 45px;
+}
+
+#luxor-top {
+    font-size: 1.8em;
+}
+
+#motto {
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 4rem;
+}
+
+.card-deck {
+    margin: 1em;
+}
+
+.card {
+    display: flex;
+    min-width: 30%;
+    max-width: 100%;
+    margin: 0.5em;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0em;
+}
+
+
+.fa-heart {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+    font-size: 2em;
+    color: white;
+    text-shadow: 1px 1px 8px #272634;
+}
+
+.price {
+    float: left;
+}
+
+.details {
+    float: right;
+    text-align: right;
+}
+
+.street {
+    float: left;
+}
+
+.nav-link {
+    margin: 0 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .price {
+      float: left;
+      margin-right: 100%;
+  }
+
+  .details {
+      float: left;
+      font-size: 1.25em;
+  }
+
+  .street {
+      float: left;
+  }
+
+}

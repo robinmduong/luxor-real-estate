@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+          crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Open+Sans:wght@600&family=Questrial&display=swap" rel="stylesheet">
+<body>
+
+<!--GOOGLE MAPS JAVASCRIPT API-->
+<script>
+    function initMap() {
+
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDq5YvnU-7d4sd9WfUZDjYRA-v8f0XJ0qg&callback=initMap">
+</script>
+
+
+<!--NAVBAR-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" id="luxor-top" href="#"><img id="logo" src="realestateimgs/luxor-logo-transparent.png" alt="Luxor house logo"> Luxor</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto"> <!--ml-auto aligns the navbar buttons to the right -->
+            <li class="nav-item active">
+                <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="buy-a-home.html">Buy</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="rent-a-home.html">Rent</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sell-a-home.html">Sell</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="find-an-agent.html">Find An Agent</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navbar" href="log-in.html">Log In</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!--JUMBOTRON-->
+
+<section id="header" class="jumbotron">
+    <h1 class="display-4" id="motto">Find Your New Home</h1>
+    <p class="lead" id="tagline-one">Buy, rent, and sell homes with Luxor</p>
+    <hr class="my-5">
+    <p id="tagline-two">Luxor has matched 125,000 people with their dream home.</p>
+    <p id="search-address" input type="text"></p>
+        <input class="form-control form-control-lg" type="text" placeholder="Enter City, Neighborhood, or ZIP Code">
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="#" role="button">Explore Homes</a>
+    </p>
+</section>
+
+<div class="card-deck">
+    <div class="card">
+        <img src="realestateimgs/home/house_buy.svg" class="card-img-top" alt="icon of a house">
+        <div class="card-body">
+            <h4 class="card-title">Buy A Home</h4>
+            <p class="card-text">Explore over 1 million houses listed for sale, and find a house that meets your needs.</p>
+            <a class="btn btn-primary btn-lg" href="buy-a-home.html" role="button" class="card-button">Buy A Home</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="realestateimgs/home/house_sale.svg" class="card-img-top" alt="icon of a house for sale">
+        <div class="card-body">
+            <h4 class="card-title">Sell A Home</h4>
+            <p class="card-text">Work with one of our partnering real estate agencies and sell your home with confidence.</p>
+            <a class="btn btn-primary btn-lg" href="sell-a-home.html" role="button" class="card-button">Sell A Home</a>
+        </div>
+    </div>
+    <div class="card">
+        <img src="realestateimgs/home/apartment_buy.svg" class="card-img-top" alt="icon of a house for rent">
+        <div class="card-body">
+            <h4 class="card-title">Rent A Home</h4>
+            <p class="card-text">Explore over 2 million apartments listed for rent, and find an apartment that you love.</p>
+            <a class="btn btn-primary btn-lg" href="rent-a-home.html" role="button" class="card-button">Rent A Home</a>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+<script src="home.js"></script>
+</body>
+</html>
