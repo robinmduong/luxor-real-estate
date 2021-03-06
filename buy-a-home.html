@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="buy-a-home.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+          crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Open+Sans:wght@600&family=Questrial&display=swap" rel="stylesheet">
+<body>
+
+<!--GOOGLE MAPS JAVASCRIPT API-->
+<script>
+    function initMap() {
+
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDq5YvnU-7d4sd9WfUZDjYRA-v8f0XJ0qg&callback=initMap">
+</script>
+
+
+<!--NAVBAR-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" id="luxor-top" href="home.html"><img id="logo" src="realestateimgs/luxor-logo-transparent.png" alt="Luxor house logo"> Luxor</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto"> <!--ml-auto aligns the navbar buttons to the right -->
+            <li class="nav-item active">
+                <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="buy-a-home.html">Buy</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="rent-a-home.html">Rent</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="sell-a-home.html">Sell</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="find-an-agent.html">Find An Agent</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link navbar" href="log-in.html">Log In</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="card-deck">
+    <div class="card">
+        <a href="#"><img src="realestateimgs/houses-for-sale/house-1.jpeg" class="card-img-top" alt="icon of a house"></a>
+        <div class="card-body">
+            <i class="far fa-heart"></i>
+            <h3 class="price">$523,300</h3>
+            <h5 class="details">2 bd | 4 ba | 2310 sqft</h5>
+            <h6 class="street">5392 Winnipeg Rd, Centereach, NY 11720</h6>
+        </div>
+    </div>
+    <div class="card">
+        <img src="realestateimgs/houses-for-sale/house-2.jpeg" class="card-img-top" alt="icon of a house">
+        <div class="card-body">
+            <i class="far fa-heart"></i>
+            <h3 class="price">$713,400</h3>
+            <h5 class="details">3 bd | 2 ba | 3200 sqft</h5>
+            <h6 class="street">334 Clarity St, Richmond, VA 23224</h6>
+        </div>
+    </div>
+    <div class="card">
+        <img src="realestateimgs/houses-for-sale/house-3.jpeg" class="card-img-top" alt="icon of a house">
+        <div class="card-body">
+            <i class="far fa-heart"></i>
+            <h3 class="price">$446,800</h3>
+            <h5 class="details">2 bd | 1 ba | 1510 sqft</h5>
+            <h6 class="street">9524 Front Ave, Somerset, NJ 00873</h6>
+        </div>
+    </div>
+    <div class="card">
+        <img src="realestateimgs/houses-for-sale/house-4.jpeg" class="card-img-top" alt="icon of a house">
+        <div class="card-body">
+            <i class="far fa-heart"></i>
+            <h3 class="price">$833,300</h3>
+            <h5 class="details">2 bd | 4 ba | 2550 sqft</h5>
+            <h6 class="street">77 W. Lower River St, Mudlane, IL 60060</h6>
+        </div>
+    </div>
+    <div class="card">
+        <img src="realestateimgs/houses-for-sale/house-5.jpeg" class="card-img-top" alt="icon of a house">
+        <div class="card-body">
+            <i class="far fa-heart"></i>
+            <h3 class="price">$523,300</h3>
+            <h5 class="details">2 bd | 4 ba | 1310 sqft</h5>
+            <h6 class="street">7560 Aspen Dr, Coachella, CA 92236</h6>
+        </div>
+    </div>
+    <div class="card">
+        <img src="realestateimgs/houses-for-sale/house-6.jpeg" class="card-img-top" alt="icon of a house">
+        <div class="card-body">
+            <i class="far fa-heart"></i>
+            <h3 class="price">$1,634,500</h3>
+            <h5 class="details">2 bd | 4 ba | 2010 sqft</h5>
+            <h6 class="street">742 Second Ln, Ashtabula,OH 44004</h6>
+        </div>
+    </div>
+    <div class="card-deck">
+    <div class="card">
+        <img src="realestateimgs/houses-for-sale/house-1.jpeg" class="card-img-top" alt="icon of a house">
+        <div class="card-body">
+            <i class="far fa-heart"></i>
+            <h3 class="price">$523,300</h3>
+            <h5 class="details">2 bd | 4 ba | 2310 sqft</h5>
+            <h6 class="street">5392 Winnipeg Rd, Centereach, NY 11720</h6>
+        </div>
+    </div>
+    <div class="card">
+        <img src="realestateimgs/houses-for-sale/house-2.jpeg" class="card-img-top" alt="icon of a house">
+        <div class="card-body">
+            <i class="far fa-heart"></i>
+            <h3 class="price">$713,400</h3>
+            <h5 class="details">3 bd | 2 ba | 3200 sqft</h5>
+            <h6 class="street">334 Clarity St, Richmond, VA 23224</h6>
+        </div>
+    </div>
+    <div class="card">
+        <img src="realestateimgs/houses-for-sale/house-3.jpeg" class="card-img-top" alt="icon of a house">
+        <div class="card-body">
+            <i class="far fa-heart"></i>
+            <h3 class="price">$446,800</h3>
+            <h5 class="details">2 bd | 1 ba | 1510 sqft</h5>
+            <h6 class="street">9524 Front Ave, Somerset, NJ 00873</h6>
+        </div>
+    </div>
+    <div class="card">
+        <img src="realestateimgs/houses-for-sale/house-4.jpeg" class="card-img-top" alt="icon of a house">
+        <div class="card-body">
+            <i class="far fa-heart"></i>
+            <h3 class="price">$833,300</h3>
+            <h5 class="details">2 bd | 4 ba | 2550 sqft</h5>
+            <h6 class="street">77 W. Lower River St, Mudlane, IL 60060</h6>
+        </div>
+    </div>
+    <div class="card">
+        <img src="realestateimgs/houses-for-sale/house-5.jpeg" class="card-img-top" alt="icon of a house">
+        <div class="card-body">
+            <i class="far fa-heart"></i>
+            <h3 class="price">$523,300</h3>
+            <h5 class="details">2 bd | 4 ba | 1310 sqft</h5>
+            <h6 class="street">7560 Aspen Dr, Coachella, CA 92236</h6>
+        </div>
+    </div>
+    <div class="card">
+        <img src="realestateimgs/houses-for-sale/house-6.jpeg" class="card-img-top" alt="icon of a house">
+        <div class="card-body">
+            <i class="far fa-heart"></i>
+            <h3 class="price">$1,634,500</h3>
+            <h5 class="details">2 bd | 4 ba | 2010 sqft</h5>
+            <h6 class="street">742 Second Ln, Ashtabula,OH 44004</h6>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+<script src="home.js"></script>
+<script src="buy-a-home.js"></script>
+<script src="http://code.jquery.com/jquery.js"></script>
+
+
+</body>
+</html>
